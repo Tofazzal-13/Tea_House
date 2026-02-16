@@ -22,7 +22,7 @@
         }
     </style>
 </head>
-<body class="md:space-y-[130px]">
+<body>
     <!-- banner section -->
     <section class="grid grid-cols-1  md:grid-cols-2 container mx-auto">
         <div class="banner_left space-y-[30px]">
@@ -44,7 +44,7 @@
         </div>
     </section>
     <!-- feature section start here -->
-    <section class="container mx-auto">
+    <section class="container mx-auto my-[130px]">
         <!-- feature heading -->
         <div class="text-center">
             <h2 class="text-[45px] text-[#1C1C1C] font-extrabold ">Our Featured Products</h2>
@@ -104,7 +104,7 @@
     </section>
 
     <!-- meet client section -->
-    <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[100px] lg:gap-10 bg-linear-to-r from-[#FF8938] to-[#FF0000] p-[70px] text-white rounded-2xl">
+    <section class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[100px] lg:gap-10 bg-linear-to-r from-[#FF8938] to-[#FF0000] p-[70px] text-white rounded-2xl my-[130px]">
         <div class="meet_client_left  flex items-center">
             <div class="space-y-[25px]">
                 <h2 class="text-[45px] font-bold ">Meet Our Super <br> Clients</h2>
@@ -179,8 +179,9 @@
     </section>
 
     <!-- footer section -->
-    <footer class="bg-linear-to-r from-[#fff3eb] to-[#ffe7e6]">
-      <div class="container mx-auto py-[130px]">
+    <footer class="bg-linear-to-r from-[#fff3eb] to-[#ffe7e6] mt-[130px]">
+      <div class="container mx-auto py-[130px] space-y-12">
+
         <div class="footer_top flex justify-between">
             <div>
                 <img src="./images/cup.png" alt="">
@@ -190,18 +191,46 @@
                 <button class="p-2 md:p-4 rounded-md text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#FF0000]">Get Started</button>
             </div>
         </div>
-        <div class="footer_link">
-            <ul class="space-y-4 mt-[15px]">
-                <li>Quick Links</li>
-                <li><a href="">Home</a></li>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Insurance</a></li>
-                <li><a href="">Privacy Policy</a></li>
-            </ul>
-            <ul>
-                <li></li>
-            </ul>
 
+        <div class="footer_link grid grid-cols-2 md:grid-cols-4">
+            <ul class="space-y-2 mt-[15px]">
+                <li class="font-semibold text-xl">Quick Links</li>
+                <li class="text-[#777777]"><a href="">Home</a></li>
+                <li class="text-[#777777]"><a href="">About Us</a></li>
+                <li class="text-[#777777]"><a href="">Insurance</a></li>
+                <li class="text-[#777777]"><a href="">Privacy Policy</a></li>
+            </ul>
+            <ul class="space-y-2 mt-[15px]">
+                <li class="font-semibold text-xl">Quick Links</li>
+                <li class="text-[#777777]"><a href="">Life Insurance</a></li>
+                <li class="text-[#777777]"><a href="">Car Insurance</a></li>
+                <li class="text-[#777777]"><a href="">Health Insurance</a></li>
+                <li class="text-[#777777]"><a href="">House Insurance</a></li>
+            </ul>
+            <ul class="space-y-2 mt-[15px]">
+                <li class="font-semibold text-xl">Help</li>
+                <li class="text-[#777777]"><a href="">FAQs</a></li>
+                <li class="text-[#777777]"><a href="">Contact Us</a></li>
+                
+            </ul>
+          
+            <div class="space-y-4 mt-6 md:ml-22">
+                <h2 class="font-semibold text-3xl">Subscribe to our newsletter</h2>
+                <input type="text" placeholder="Email address" class="border-b-2 pb-2 outline-none mr-4">
+                <button class="h-8 w-8 rounded-full text-white font-semibold bg-linear-to-r from-[#FF8938] to-[#FF0000] ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="flex gap-4">
+                    <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                    <span><a href=""><i class="fa-brands fa-twitter"></i></i></a></span>
+                    <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer_bottom text-center">
+            <p class="text-[#777777]">&copy; 2027 UIDesign.to - All rights reserved.</p>
         </div>
       </div>
     </footer>
